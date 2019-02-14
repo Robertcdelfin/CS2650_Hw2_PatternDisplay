@@ -10,7 +10,7 @@ int main(int argc, char **argv){
 	//Number of rows
 	for(int aRows = 0; aRows < 10; aRows++){
 		//Number of Colums
-		for(int aColums = 0 ; aColums < aRows; aColums++ ){
+		for(int aColums = 0 ; aColums <= aRows; aColums++ ){
 			printf("+");
 		}
 		printf("\n");
